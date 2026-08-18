@@ -1,1 +1,1 @@
-# rp2040-minimal-board
+# MDC RP2040 Board
