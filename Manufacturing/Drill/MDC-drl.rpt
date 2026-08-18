@@ -1,0 +1,35 @@
+Drill report for MDC.kicad_pcb
+Created on 2026-08-18T22:30:43
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  GND_Plane                 in1
+    L3 :  Power_Plane               in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'MDC-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (58 holes))
+    T2  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T3  1.000mm  0.0394"  (43 holes))
+
+    Total plated holes count 105
+
+
+Drill file 'MDC-front-in2-drl.gbr' contains
+    holes connecting layer pair: 'F.Cu and Power_Plane' (blind vias):
+    =============================================================
+    T1  0.300mm  0.0118"  (1 hole)
+
+    Total plated holes count 1
+
+
+Drill file 'MDC-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes))
+
+    Total unplated holes count 2
